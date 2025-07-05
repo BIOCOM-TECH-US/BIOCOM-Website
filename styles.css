@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "SF Pro Display", "Helvetica Neue", sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-items li {
+  cursor: pointer;
+  color: #777777;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.btn-outline {
+  border: 1px solid #6ED1F5;
+  background: none;
+  color: #6ED1F5;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #6ED1F5;
+  color: #000000;
+}
+
+.btn-secondary {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+  background-color: #000000;
+}
+
+.feature h2 {
+  color: #6ED1F5;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #777777;
+}
+
+.footer-links,
+.footer-social {
+  margin-bottom: 1rem;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #777777;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #6ED1F5;
+}
+
+
